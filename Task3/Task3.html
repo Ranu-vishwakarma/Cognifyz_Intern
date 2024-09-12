@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruit Image Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    text-align: center;
+    padding: 20px;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    height: auto;
+    width: 18.2rem;
+    border: 5px solid rgb(8, 117, 51);
+    border-radius: 1rem;
+    margin: 10px;
+    box-shadow: 15px 13px rgb(199, 40, 40);
+    background-color: #fff;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.card-img {
+    height: 13rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+p {
+    font-size: larger;
+    font-weight: bolder;
+    margin: 10px 0;
+}
+
+button {
+    height: 3.2rem;
+    width: 6.3rem;
+    border-radius: 1rem;
+    background-color: rgb(26, 159, 79);
+    font-size: 1.1rem;
+    margin-top: 10px;
+}
+.mainfooter {
+      background-image: url("footerimage.jpg");
+      background-repeat: no-repeat;
+      height: 250px;
+      width: 75vw;
+      position: relative;
+      left: 11%;
+      padding: 2rem;
+      background-size: cover;
+      border-radius: 9px;
+      border: 5px solid rgb(8, 117, 51);
+    }
+
+    .footerdata {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      text-align: center;
+    }
+
+    li {
+      padding: 8px 0;
+    }
+
+    b {
+      font-size: 1.5rem;
+    }
+
+    .catedata {
+      font-size: 1.2rem;
+    }
+
+    .footericon {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+    .footericon a {
+      text-decoration: none;
+      display: inline-block;
+      padding: 10px;
+      margin: 10px;
+      background-color: rgb(251, 253, 251);
+      border-radius: 50%;
+      transition: background-color 0.5s ease;
+    }
+
+    .footericon a i {
+      font-size: 2.5rem;
+      color: rgb(13, 15, 17);
+    }
+
+    .footericon a:hover {
+      background-color: rgb(17, 19, 18);
+    }
+
+    .footericon a:hover i {
+      color: rgb(5, 198, 44);
+    }
+
+    @media (max-width: 768px) {
+      .mainfooter {
+      padding: 1rem;
+    }
+      .footericon a i {
+      font-size: 1.5rem;
+    }
+    .catedata {
+      font-size:0.8rem;
+    }
+    li {
+      padding: 5px 0;
+    }
+
+    b {
+      font-size: 1rem;
+    }
+      .footericon {
+        flex-direction: row;
+        justify-content: center;
+      }
+    }
+</style>
+<body>
+    <div class="content">
+        <h1>Fruit Image Gallery</h1>
+    </div>
+
+    <div class="cards-container">
+        <div class="card">
+            <div class="card-img"><img src="aanar-removebg-preview.png" alt="Pomegranate"></div>
+            <p>Pomegranate</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="card">
+            <div class="card-img"><img src="kivi2.png" alt="Kivi"></div>
+            <p>Kivi</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="card">
+            <div class="card-img"><img src="mango-removebg-preview.png" alt="Mango"></div>
+            <p>Mango</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="card">
+            <div class="card-img"><img src="apple-removebg-preview.png" alt="Mango"></div>
+            <p>Apple</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="card">
+            <div class="card-img"><img src="strob-removebg-preview2.png" alt="Pomegranate"></div>
+            <p>Strawberry</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="card">
+            <div class="card-img"><img src="melon-removebg-preview.png" alt="Pomegranate"></div>
+            <p>Melon</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="card">
+            <div class="card-img"><img src="bnana-removebg-preview.png" alt="Pomegranate"></div>
+            <p>Banana</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="card">
+            <div class="card-img"><img src="pineapple-removebg-preview.png" alt="Pomegranate"></div>
+            <p>Pineapple</p>
+            <button>Buy Now</button>
+        </div>
+    </div>
+    <div class="mainfooter">
+      <footer>
+        <div class="footerdata">
+          <ul>
+            <li><b>All Categories</b></li>
+            <div class="catedata">
+              <li>Fruits</li>
+              <li>Vegetables</li>
+              <li>Others</li>
+            </div>
+          </ul>
+          <ul>
+            <li><b>About Us</b></li>
+            <div class="catedata">
+              <li>Company Name</li>
+              <li>Address: 123 Street, City</li>
+              <li>Contact: +1234567890</li>
+            </div>
+          </ul>
+          <ul>
+            <li><b>Follow Us</b></li>
+            <div class="catedata">
+              <li>Instagram</li>
+              <li>Facebook</li>
+              <li>Twitter</li>
+              <li>Telegram</li>
+            </div>
+          </ul>
+        </div>
+  
+        <div class="footericon">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-telegram"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+      </footer>
+    </div>
+    </div>
+</body>
+</html>
