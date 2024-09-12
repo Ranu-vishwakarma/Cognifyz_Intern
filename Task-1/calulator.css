@@ -1,0 +1,83 @@
+.body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.colorbutton button{
+    position: relative;
+    top: 80px;
+    left: 48%;
+}
+h2{
+    position: relative;
+    left: 41%;
+    top:40px ;
+}
+hr{
+    position: relative;
+    top:100px ; 
+    height: 3px;
+    background-color: rgb(105, 105, 105);
+}
+button{
+    height: 60px;
+    width: 130px;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: bolder;
+    color: white;
+    border: 3px solid white;
+    outline: none;
+    box-shadow: 0 0 50px rgb(103, 102, 104) ;
+    background-color: rgb(103, 102, 104);
+}
+.container{
+    height: 470px;
+    width: 369px;
+    background-color: rgb(93, 91, 91);
+    border: 2px solid black;
+    border-radius: 15px;
+    text-align: center;
+    position: relative;
+    top: 180px;
+    left: 40%;
+}
+form.display{
+    display: flex;
+    justify-content: flex-end;
+}
+#input{
+    height: 50px;
+    width: 310px;
+    position: relative;
+    top: 35px;
+    border-radius: 14px;
+    font-size: 20px;
+    text-align: right;
+    outline: 1;
+}
+input{
+    height: 50px;
+    width: 70px;
+    margin: 1px;
+    position: relative;
+    top: 90px;
+    margin: 3px;
+    border-radius: 10px;
+
+}
+#opretor{
+    background-color:rgb(149, 149, 145) ;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+}
+ #button{
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: white;
+} 
+.eqal{
+    width: 140px;
+}
+
