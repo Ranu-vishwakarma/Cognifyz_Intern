@@ -1,0 +1,73 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.Mainbox{
+    height: 100vh;
+    width: 100vw;
+    border: 2px solid black;
+    background-image: url("bgimg2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Navbar{
+    height: 7em;
+    width: 99.7vw;
+    background-color: #ffffffa6;
+}
+.logo{
+    position: relative;
+    top: 35px;
+    left: 35px;
+    height:50px ;
+    width:200px ;
+    background-image: url("levellogo.jpg");
+    mix-blend-mode: multiply;
+    background-size: cover;
+} 
+.nav{
+     text-align: right;
+} 
+a{
+    text-decoration: none;
+    color: rgb(15, 15, 15);
+    font-family: arial;
+    padding: 50px;
+    font-size: 23px;
+    margin: 30px;
+}
+input{
+    position: relative;
+    bottom: 30px;
+    left: 500px;
+    border-radius: 25px;
+    height: 30px; 
+    font-size:18px;   
+}
+.contant{
+    height: 300px;
+    width:800px;
+    margin: 11em 0 0 30rem;
+    text-align: center;
+}
+h2{
+    font-size: 46px;
+    color: #a81c04;
+    word-spacing: 6px;
+    letter-spacing: 1px;
+}
+h1{
+    font-size: 40px;
+    margin: -23px;
+    padding-left: 20px;
+    letter-spacing: 1px;
+
+}
+p{
+    font-size:24px;
+    letter-spacing: 1px;
+    padding: 5px;
+    margin-top: 25px;
+
+}
+
